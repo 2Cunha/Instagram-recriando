@@ -11,11 +11,12 @@
 body{
     width: 100%;
     min-width: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(250, 250, 250);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-shrink: 0;
 }
 .full-main{
     display: flex;
@@ -32,4 +33,73 @@ body{
 }
 .mobile-illustration img{
     height: 50rem;
+    border-radius: 60px;
+
 }
+.continue{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    
+
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bdbdbd;
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
+    width: 350px;
+    background-color: rgb(255,255,255);
+}
+.login img{
+    padding: 20px;
+}
+.login .profile-photo{
+    border-radius: 120px;
+    max-width: 140px;
+    }
+.btn{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0095f6;
+    color: rgb(243, 243, 243);
+}
+.link-blue{
+    color: #0095f6;
+}
+.login a{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.not-accout{
+    flex-direction: row;
+}
+.get-app{
+    display: flex;
+    align-items: center;
+    width: 27vh;
+    justify-content: center;
+    margin: 5px;
+}
+.get-app img{
+    max-width: 150px;
+    margin: 5px;
+}
+    @media(max-width: 1164px){
+        #mobile-img{
+            display: none;   
+        }
+        .continue{
+            display: flex;
+            flex: 1;
+                    
+        }
+
+    }
