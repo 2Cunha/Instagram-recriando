@@ -9,7 +9,7 @@
 
 body{
     width: 100%;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
     display: flex;
@@ -104,7 +104,10 @@ body{
 }
 
     @media(max-width: 1164px){
-        
+        body{
+            background-color: #ffff;
+        }
+
         #mobile-img{
             display: none;   
         }
@@ -114,4 +117,9 @@ body{
             width: 100%;
             width: 100vw;
         }
+        .login{
+            border: 1px solid transparent;
+        }
+
+
     }
